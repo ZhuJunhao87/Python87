@@ -52,7 +52,7 @@ pip install requests
 10．其他代码
 链接编码处理，处理链接中带有中文的情况
 from urllib.parse import quote
-search_url = 'https://www.tianyancha.com/search?key=浙江大道保理有限公司'
+search_url = 'https://www.xxxx.com/test?key=测试'
 url = quote(searchUrl, safe=string.printable)
 python时间延迟
 import time
